@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import zzUi from '@/zz-ui/index.js'
+
+Vue.use(zzUi)
 new Vue({
   router,
   store,
